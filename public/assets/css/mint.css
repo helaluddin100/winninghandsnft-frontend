@@ -1,0 +1,200 @@
+.mint-marques .animate-m {
+    margin-bottom: 213px;
+}
+/* =================== Mint ========================= */
+.mint-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.mint-content {
+    margin-top: 100px;
+}
+.mint-content .title{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: var(--primary-font);
+}
+.mint-content p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.mint-content span{
+    color: #FF7E01;
+}
+.mint-price {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.price-content{
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-right h4{
+    font-size: 54px;
+    font-family: var(--primary-font);
+    font-weight: 900;
+}
+.mint-count{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mint-count-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.mint-count-left{
+    display: flex;
+    align-items: center;
+}
+.mint-count-item p{
+    position: absolute;
+    font-size: 54px;
+    font-family: var(--primary-font);
+    font-weight: 900;
+    color: #000;
+}
+.price-img img {
+    width: 100%;
+}
+.mint-count-item-img img{
+    width: 80%;
+}
+.mint-plus {
+    border: none;
+    background: none;
+}
+.mint-plus img{
+    cursor: pointer;
+    width: 80%;
+}
+.mint-incrase{
+    border: none;
+    background: none;
+}
+.mint-incrase img{
+    cursor: pointer;
+    width: 80%;
+}
+.mint-count-right img{
+    width: 80%;
+}
+.price-left img {
+    width: 100%;
+}
+.mint-now {
+    margin-top: 50px;
+    border: none;
+    background: none;
+}
+.mint-now img{
+    width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+    .price-content {
+        width: 84%;
+    }
+    .price-left img {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .price-content {
+        width: 84%;
+    }
+    .mint-wrapper {
+        width: 100%;
+        /* margin-top: 80px; */
+    }
+    .mint-content .title{
+        font-size: 50px;
+    }
+    .mint-content p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .price-right h4 {
+        font-size: 40px;
+    }
+    .mint-count-item p {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+   .price-left img{
+    display: none;
+   }
+   .price-content {
+    width: 84%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+}
+@media screen and (max-width: 550px) {
+    .mint-content {
+        margin-top: 0px;
+    }
+    .mint-wrapper{
+        gap: 20px;
+    }
+    .mint-price {
+        margin-top: 30px;
+    }
+    .mint-count {
+        margin-top: 30px;
+    
+    }
+    .mint-content .title{
+        font-size: 40px;
+    }
+    .mint-content p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .price-right h4 {
+        font-size: 24px;
+    }
+    .mint-count-item p {
+        font-size: 24px;
+    }
+    .mint-now {
+        margin-top: 30px;
+    }
+    .mint-marques .marque-A {
+        font-size: 26px;
+        line-height: 25px;
+        padding: 4px;
+    }
+    .mint-marques .marque-B {
+        font-size: 26px;
+        line-height: 25px;
+        padding: 4px;
+    }
+    .mint-marques .animate-m {
+        margin-top: 41px;
+        margin-bottom: 83px;
+    }
+
+}

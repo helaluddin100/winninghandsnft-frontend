@@ -1,0 +1,180 @@
+.create-item-wrapper {
+  display: grid;
+  background: #1210117a;
+  border-radius: 12px;
+  padding: 100px 50px 50px 50px;
+  gap: 50px;
+  align-items: center;
+  backdrop-filter: blur(1px);
+  grid-template-columns: 30% 66%;
+}
+
+.create-item-title .title span {
+  color: var(--main-color);
+}
+
+.create-item-list {
+  width: 100%;
+  padding: 10px 20px;
+  background: #f4f6f9;
+  border: 1px solid rgba(99, 69, 237, 0.12);
+  border-radius: 5px;
+}
+
+.create-item-list input {
+  border: none;
+  background: none;
+}
+
+.create-item-imgs {
+  background: #2d2529 !important;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-nft-item-bid {
+  border-radius: 10px;
+}
+
+.create-from {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--secondary-font);
+}
+
+.create-item-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.create-item-box {
+  display: flex;
+  gap: 15px;
+}
+
+.create-list {
+  width: 100%;
+  padding: 10px 20px;
+  background: #f4f6f9;
+  border: 1px solid rgba(99, 69, 237, 0.12);
+  border-radius: 5px;
+}
+
+.create-list input {
+  border: none;
+  background: none;
+}
+
+.create-item-list textarea {
+  border: none;
+  background: none;
+  width: 100%;
+}
+
+.create-item-checkbox {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.checkbox-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-list input {
+  background: (--main-color) !important;
+  border: 1px solid red;
+}
+
+.checkbox-list label {
+  color: var(--white-color);
+}
+
+.create-item-btn img {
+  cursor: pointer;
+}
+
+.create-item-btn img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .create-item-wrapper {
+    border-radius: 12px;
+    padding: 100px 50px 50px 50px;
+    gap: 50px;
+    align-items: center;
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .create-item-wrapper {
+    border-radius: 12px;
+    padding: 20px;
+    gap: 50px;
+    align-items: center;
+  }
+  .create-file-item input {
+    width: 60%;
+  }
+  .create-item-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  .create-item-box {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .create-item-imgs {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.create-item-title {
+  margin-bottom: 20px;
+}
+
+.create-item-title h1 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .create-item-checkbox {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+.nft-box-title h3 {
+  text-align: left;
+  line-height: 150%;
+  margin: 10px 0;
+}

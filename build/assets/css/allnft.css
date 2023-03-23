@@ -1,0 +1,42 @@
+/* <!-- =============== All Nft ============= --> */
+.allnft-title{
+    text-align: center;
+}
+.allnft-title span{
+    color: var(--main-color)
+}
+.allnft-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.all-nft-img img{
+    width: 100%;
+}
+.all-nft-btn{
+    margin-top: -30px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-content{
+    position: absolute;
+}
+.btn-content p{
+     color: #271919 !important;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 600;
+}
+.all-nft-btn img{
+    width: 100%;
+}
+.allnft-item p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 600;
+}

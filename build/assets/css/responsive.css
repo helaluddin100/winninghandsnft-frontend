@@ -1,0 +1,275 @@
+@media screen and (max-width: 1250px) {
+  nav.navigation {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .timer-box {
+    width: 63%;
+  }
+  .welcome {
+    background: #271919 url(../img/bg.png);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome_container_top_icons {
+    justify-content: center;
+  }
+  .faq-left-img {
+    display: none;
+  }
+  img.absolute {
+    display: none;
+  }
+  .timer-box {
+    width: 100%;
+    position: relative;
+  }
+  .newsletter-right {
+    display: none;
+  }
+  .join-right {
+    display: none;
+  }
+  .roadmap-all {
+    width: 100%;
+  }
+  .about-description img {
+    /* display: none; */
+    width: 100%;
+  }
+  .about-description p {
+    padding: 0;
+    position: relative;
+    color: #fff;
+  }
+  .timer-wrapper {
+    padding-top: 93px;
+    margin-top: 61px;
+  }
+  .join-community-wrapper {
+    background: #ff7e01;
+    border-radius: 20px;
+  }
+  .footer-logo {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 0;
+  }
+  .footer__content {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+  }
+  .whitelist_table_body_text {
+    gap: 1.6rem;
+  }
+  img.m-about-img {
+    display: block;
+  }
+  img.l-about-img {
+    display: none;
+  }
+  img.mobile-img {
+    display: block;
+  }
+  img.desktop-img {
+    display: none;
+  }
+  .footer-content p {
+    font-family: var(--title-font);
+    font-size: 25px;
+    line-height: 112%;
+  }
+  .footer-content {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+  }
+  .active.mobile-menu {
+    width: 100%;
+  }
+  .nav-footer {
+    display: block;
+  }
+  .footer-logo img {
+    width: 160px;
+  }
+  .hero-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .row-title {
+    font-size: 17px !important;
+  }
+  section.faq-row.styles_faq-row__2YF3c {
+    padding: 10px 20px;
+  }
+  .row-content-text {
+    font-weight: 700;
+    font-size: 15px !important;
+  }
+  .hero-text p {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .timer-box h3 {
+    font-family: var(--title-font);
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .roadmap {
+    padding: 50px 0 50px 0;
+  }
+  .newsletter-email {
+    display: block;
+  }
+  .time h1 {
+    font-size: 40px;
+  }
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .timer-box h3 {
+    font-family: var(--title-font);
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+  .footer-logo img {
+    width: 100px;
+  }
+  a.footer-link img {
+    width: 40px;
+  }
+}
+
+/* ============== timer- video start ================ */
+
+@media only screen and (max-width: 1240px) {
+  .timer-item-1 {
+    top: 33%;
+    left: 0;
+  }
+  .timer-item-1 img {
+    width: 250px;
+  }
+  .timer-item-2 {
+    bottom: -100%;
+    left: 18%;
+  }
+  .timer-item-2 img {
+    width: 250px;
+  }
+  .timer-item-3 {
+    bottom: -100%;
+    right: 18%;
+  }
+  .timer-item-3 img {
+    width: 250px;
+  }
+  .timer-item-4 {
+    top: 33%;
+    right: 0;
+  }
+  .timer-item-4 img {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1076px) {
+  .timer-item-3 {
+    bottom: -88%;
+    right: 18%;
+  }
+  .timer-item-2 {
+    bottom: -88%;
+    left: 18%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .timer {
+    padding-top: 300px;
+  }
+  .timer-item-1 {
+    top: -73%;
+    left: 0;
+  }
+  .timer-border img {
+    width: 200px;
+  }
+  .timer-item-2 {
+    bottom: -72%;
+    left: 0%;
+  }
+  .timer-item-3 {
+    bottom: -75%;
+    right: 0%;
+  }
+  .timer-item-4 {
+    top: -73%;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .timer {
+    padding-top: 50px;
+  }
+  .timer-item-1 {
+    top: -26%;
+    left: 0;
+  }
+  .timer-border img {
+    width: 150px;
+  }
+  .timer-item-2 {
+    bottom: -45%;
+    left: 0%;
+  }
+  .timer-item-3 {
+    bottom: -45%;
+    right: 0%;
+  }
+  .timer-item-4 {
+    top: -26%;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .timer-item-1 {
+    top: -30%;
+    left: 0;
+  }
+  .timer-item-2 {
+    bottom: -50%;
+    left: 0%;
+  }
+  .timer-item-3 {
+    bottom: -50%;
+    right: 0%;
+  }
+  .timer-item-4 {
+    top: -30%;
+    right: 0;
+  }
+}
+
+/* ============== timer- video end================ */

@@ -1,0 +1,118 @@
+.winning-wrapper {
+  display: flex;
+  gap: 50px;
+}
+.winning-right-site h1 span {
+  color: var(--main-color);
+}
+.winning-left-site img {
+  width: 100%;
+}
+.fields {
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-top: 27px;
+}
+
+.field {
+  display: flex;
+}
+
+.field span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-family: var(--secondary-font);
+}
+
+.field span:nth-child(1) {
+  width: 140px;
+}
+
+.owner-name {
+  color: #ffbc26 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .winning-wrapper {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+}
+@media screen and (max-width: 550px) {
+  .winning-wrapper {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* {--------------------------  attributes -----------------------} */
+
+.attributes {
+  padding: 50px 0;
+}
+.attribute-list {
+  margin-top: 35px;
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.attribute-item {
+  display: flex;
+  gap: 20px;
+}
+
+.attribute-item span {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+}
+
+.attribute-item span:nth-child(1) {
+  width: 220px;
+}
+
+.attribute-item span small {
+  font-size: 22px;
+  color: #ff9e23;
+  font-family: var(--secondary-font);
+}
+
+@media screen and (max-width: 768px) {
+  .winning-wrapper {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .attribute-item span:nth-child(1) {
+    width: 220px;
+  }
+  .attribute-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+}

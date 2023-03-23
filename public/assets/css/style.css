@@ -1,0 +1,453 @@
+.hero-text-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero-text h1 {
+  font-family: var(--title-font);
+  font-size: calc(3vw + 3vh + 4px);
+  font-weight: 900;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.discord-btn {
+  margin-top: 24px;
+}
+
+/* ==================marqu============== */
+
+.marque-A {
+  transform: rotate(-7deg) scale(1.05);
+  background: var(--main-color);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  font-family: var(--title-font);
+  position: absolute;
+  left: 0;
+  right: 0;
+  line-height: 34px;
+  padding: 19px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.marque-B {
+  transform: rotate(7deg) scale(1.05);
+  background: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  font-family: var(--title-font);
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* height: 50px; */
+  line-height: 34px;
+  padding: 19px;
+}
+
+.animate-m {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 130px;
+  margin-bottom: 200px;
+}
+
+.overlay {
+  --gradient-color: none !important;
+}
+
+.cat-img {
+  text-align: center;
+}
+
+.cat-img img {
+  max-width: 90%;
+}
+
+.timer {
+  padding: 0 0 200px 0;
+}
+
+.timer-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  /* padding-top: 100px; */
+}
+
+.timer-box {
+  width: 40%;
+  background: #141213;
+  z-index: 111;
+  text-align: center;
+  padding: 30px;
+  border-radius: 23px;
+  border: 2px solid #fff;
+  top: -1px;
+}
+
+.timer-item-1 {
+  position: absolute;
+  top: 13%;
+  left: 0;
+}
+
+.timer-item-2 {
+  position: absolute;
+  bottom: -113%;
+  left: 21%;
+}
+
+.timer-item-3 {
+  position: absolute;
+  bottom: -113%;
+  right: 21%;
+  z-index: 1;
+}
+
+.timer-item-4 {
+  position: absolute;
+  top: 13%;
+  right: 0;
+}
+
+.timer-border img {
+  border-radius: 20px;
+  border: 3px solid #ffffff;
+}
+
+.time-box {
+  display: flex;
+  font-family: var(--timer-font);
+  align-items: center;
+}
+
+.time {
+  margin: 5px;
+  border-radius: 13px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--timer-font);
+  padding: 0 0px 0 18px;
+  /* padding-bottom: 0; */
+  position: relative;
+  margin-right: -18px;
+}
+
+.timer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-box h3 {
+  font-family: var(--title-font);
+  font-size: 50px;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+
+.discord {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.discord img {
+  width: 200px;
+}
+
+.timer {
+  padding-top: 50px;
+}
+
+.faq-left-img img {
+  width: 100%;
+}
+
+section.faq-row.styles_faq-row__2YF3c {
+  padding: 10px 37px;
+  border-radius: 10px;
+  background: var(--white-color);
+  margin-bottom: 40px;
+}
+
+.faq-row-wrapper.styles_faq-row-wrapper__3vA1D {
+  background: none;
+}
+
+.row-title {
+  font-family: var(--title-font) !important;
+  font-size: 22px !important;
+}
+
+span.icon-wrapper.styles_icon-wrapper__2cftw {
+  width: 50px;
+  height: 50px;
+  background: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.faq-right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+/* ===============footer================= */
+
+ul.footer-ul {
+  display: flex !important;
+  gap: 16px;
+  z-index: 19;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #dddddd3d;
+  border-radius: 74px;
+  padding: 20px;
+}
+
+.footer-logo {
+  position: absolute;
+}
+
+.footer-logo img {
+  width: 260px;
+}
+
+a.footer-link img {
+  width: 50px;
+}
+
+.footer-img img {
+  width: 100%;
+}
+
+.discord-btn-hero {
+  margin-top: 20px;
+}
+
+.discord-btn-hero a img {
+  width: 100%;
+}
+
+/* ===================mobile menu======================= */
+
+img.logo-img-mobile {
+  width: 130px;
+}
+
+.mobile-menu ul {
+  display: block;
+  text-align: center;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -110%;
+  width: 100%;
+  bottom: 0;
+  background: #27191999;
+  padding: 20px;
+  backdrop-filter: blur(7px);
+  z-index: 99;
+  transition: 0.3s;
+}
+
+.mobile-menu ul.menu-ul li {
+  background: none;
+}
+
+.menu-icon img {
+  width: 50px;
+}
+
+.main-head-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-menu img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.active.mobile-menu {
+  right: 0;
+}
+
+.close-menu {
+  display: inline-block;
+}
+
+.marques-section {
+  overflow: hidden;
+}
+
+.about-box:hover .about-box-img img {
+  transform: scale(1.1);
+}
+
+img.m-about-img {
+  display: none;
+}
+
+.body-wrapper {
+  background-image: url(../img/bg.png);
+  z-index: -1;
+}
+
+.random-wrapper img {
+  width: 100%;
+}
+
+img.mobile-img {
+  display: none;
+}
+
+.time h1 {
+  font-size: 56px;
+  display: flex;
+  font-weight: bold;
+  letter-spacing: 50px;
+  z-index: 1;
+}
+
+.footer-content {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.roadmap-title img {
+  max-width: 100%;
+}
+
+.nav-footer {
+  /* display: none; */
+  margin-top: 100px;
+}
+
+.about-description img {
+  max-width: 100%;
+}
+
+.hero-text p {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 15px 0;
+  line-height: 36px;
+}
+
+.row-content-text {
+  font-weight: 700;
+  font-size: 19px !important;
+}
+
+.footer-content p {
+  font-family: var(--title-font);
+  font-size: 53px;
+  line-height: 112%;
+  font-weight: 900;
+}
+
+.row-title-text {
+  font-family: var(--title-font);
+  font-weight: 900;
+}
+
+span.bg-1,
+span.bg-2,
+span.bg-3,
+span.bg-4 {
+  position: absolute;
+  background: #fff;
+  width: 50px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.bg-1 {
+  left: 7px;
+}
+
+.bg-2 {
+  left: 75px;
+}
+
+.bg-3 {
+  left: 144px;
+}
+
+.bg-4 {
+  left: 216px;
+}
+
+@media screen and (max-width: 500px) {
+  span.bg-1,
+  span.bg-2,
+  span.bg-3,
+  span.bg-4 {
+    position: absolute;
+    background: #fff;
+    width: 36px;
+    height: 54px;
+    border-radius: 10px;
+  }
+  .time h1 {
+    letter-spacing: 30px;
+    z-index: 1;
+  }
+  .bg-1 {
+    left: 9px;
+  }
+  .bg-2 {
+    left: 53px;
+  }
+  .bg-3 {
+    left: 96px;
+  }
+  .bg-4 {
+    left: 142px;
+  }
+}

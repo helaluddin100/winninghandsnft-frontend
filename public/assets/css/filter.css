@@ -1,0 +1,135 @@
+/* <!-- ============== Filter start =============== --> */
+.sidebar {
+  background: #121011;
+  
+  height: 100vh;
+  padding: 50px;
+}
+.sidebar .title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.filter .row > * {
+  padding-left: 0 !important;
+}
+.sidebar .title span {
+  color: var(--main-color);
+  text-align: center;
+}
+.clear-btn .custom-btn {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  width: 200px;
+  border-radius: 50px;
+  color: #000;
+}
+.for-sale {
+  margin: 10px 0;
+}
+.for-sale .hr {
+  width: 100%;
+  height: 1px;
+  background: #cccc;
+}
+.sidebar label {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  cursor: pointer;
+}
+.category {
+  margin-bottom: 20px;
+}
+.category-name {
+  margin-top: 20px;
+}
+.category-name span {
+  color: #ff9e23;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+}
+.card-box-con {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+.card-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.card-numbar {
+  position: absolute;
+  right: -20px;
+  top: -10px;
+}
+.card-numbar h2 {
+  background: #ff7e01;
+  border: 4px solid #000000;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  font-family: var(--secondary-font);
+  font-weight: 800px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img img {
+  width: 100%;
+}
+.card-btn {
+  margin-top: -30px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-text {
+  position: absolute;
+}
+.btn-text p {
+  color: #271919 !important;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+/*  ============ filter media ========= */
+@media screen and (max-width: 1300px){
+  .filter .col-lg-4{
+    display: none;
+  }
+  .sidebar{
+    display: none;
+  }
+  .col-lg-9{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 915px){
+  .card-box-con {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 630px){
+  .card-box-con {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}

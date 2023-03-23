@@ -1,0 +1,769 @@
+/* ================ about =========== */
+
+.about {
+    padding: 300px 0 100px 0;
+}
+
+.about-content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-title h1 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: var(--title-font);
+}
+
+.about-description {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-description img {
+    /* width: 100%; */
+    /* height: 200px; */
+}
+
+.about-description p {
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    color: #000;
+    padding: 15px;
+    font-family: var(--title-font);
+}
+
+.about-item {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.about-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-box-img img {
+    width: 80%;
+    transition: 0.3s;
+}
+
+.box-content {
+    position: absolute;
+}
+
+.box-content h4 {
+    font-size: 30px;
+    font-family: var(--title-font);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.box-content p {
+    font-family: var(--title-font);
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+
+/* =============== roadmap ===================== */
+
+.roadmap {
+    padding: 100px 0 100px 0;
+}
+
+.roadmap-wrapper {
+    position: relative;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+}
+
+.roadmap-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.roadmap-phase {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+.roadmap-phase-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.roadmap-all {
+    width: 34%;
+}
+
+.roadmap-all h1 {
+    color: #fff;
+    font-family: var(--title-font);
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.roadmap-all span {
+    color: #ff7e01;
+}
+
+.roadmap-description {
+    position: relative;
+    z-index: 1;
+}
+
+.roadmap-description img {
+    width: 100%;
+    /* height: 220px; */
+    transition: 0.3s;
+}
+
+.roadmap-all p {
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #000;
+    font-family: var(--title-font);
+    font-size: 18px;
+    width: 100%;
+    padding: 18px 30px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.roadmap-image {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    top: 25px;
+    /* left: 2%; */
+    z-index: 0;
+}
+
+.roadmap-image img {
+    /* width: 350px; */
+    width: 28%;
+    /* height: 1000px; */
+}
+
+
+/* <!-- ============== Winning hands ============ --> */
+
+.winning {
+    position: relative;
+    padding: 100px 0 0px 0;
+}
+
+.winning-img {
+    margin: auto;
+    border: 20px solid var(--main-color);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.winning-img img {
+    width: 100%;
+}
+
+.winning-hands-img {
+    margin-top: -114px;
+}
+
+.winning-hands-img img {
+    width: 100%;
+}
+
+.winning-site {
+    position: absolute;
+    bottom: 28%;
+    right: 0;
+}
+
+.winning-site img {
+    width: 200px;
+}
+
+
+/* <!-- =========== Team ===================== --> */
+
+.team {
+    padding: 50px 0 100px 0;
+}
+
+.team-title h1 {
+    text-align: center;
+    font-size: calc(3vw + 4vh + 6px);
+    font-family: var(--title-font);
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 550;
+}
+
+.team-card {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-img img {
+    width: 94%;
+    transition: 0.3s;
+}
+
+.team-card h3 {
+    font-size: 35px;
+    font-family: var(--title-font);
+    color: #fff;
+    font-weight: 700;
+}
+
+.team-card p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    font-family: var(--title-font);
+}
+
+
+/* <!-- =================== New sletter ============== --> */
+
+.new-sletter {
+    padding: 100px 0 100px 0;
+    position: relative;
+}
+
+.newsletter-wrapper {
+    /* width: 80%;
+    margin: 0 auto; */
+    background: #271919;
+    border: 11px solid rgba(255, 255, 255, 0.1);
+    border-radius: 43px;
+}
+
+.newsletter-title h1 {
+    font-weight: 900;
+    font-size: 96px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: var(--title-font);
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 32px;
+}
+
+.newsletter-let {
+    padding: 40px;
+}
+
+.newsletter-let p {
+    /* font-family: var(--title-font); */
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39px;
+    margin-bottom: 49px;
+}
+
+.newsletter-email .newsletter-form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.email input {
+    width: 343px;
+    background: #ffffff;
+    border-radius: 39px;
+    padding: 20px 30px;
+    outline: none;
+}
+
+.email input::placeholder {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.send-btn button {
+    font-size: 25px;
+    color: #ffffff;
+    background: #ff7e01;
+    border-radius: 39px;
+    padding: 19px 60px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.newsletter-right img {
+    width: 100%;
+}
+
+.newsletter-left {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+}
+
+.newsletter-left img {
+    width: 80%;
+}
+
+.newsletter-rights {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    right: 0;
+}
+
+.newsletter-rights img {
+    width: 500px;
+}
+
+.email {
+    width: 100%;
+}
+.send-btn {
+    width: 100%;
+}
+/* <!-- ====================== Join our discord  =========== --> */
+
+.join-community {
+    padding: 100px 0 100px 0;
+}
+
+.join-community-wrapper {
+    background: #ff7e01;
+    border-radius: 75px;
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.join-left {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.join-left h1 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: var(--title-font);
+}
+
+.join-left p {
+    font-family: var(--body-font);
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.discord-btn img {
+    width: 50%;
+    cursor: pointer;
+}
+
+.join-right {
+    width: 50%;
+}
+
+.join-right img {
+    width: 80%;
+}
+
+
+/* =======================responsive====================== */
+
+
+/* <!--================ About ================ --> */
+
+@media only screen and (max-width: 1200px) {
+    .about-item {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 992px) {
+.about {
+    padding: 200px 0 100px 0;
+}
+}
+
+@media only screen and (max-width: 770px) {
+    .about {
+        padding: 150px 0 100px 0;
+    }
+    .about-item {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about-title h1 {
+        font-size: 50px;
+    }
+    .box-content h4 {
+        font-size: 30px;
+    }
+    .box-content p {
+        font-size: 22px;
+    }
+    .box-content {
+        position: absolute;
+        /* top: 65px; */
+    }
+    .about-content {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .about-description p {
+        width: 100%;
+        padding: 30px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .about-title h1 {
+        font-size: 40px;
+    }
+    .about-description p {
+        font-size: 14px;
+    }
+}
+
+
+/* ================== roadmap ================= */
+
+@media only screen and (max-width: 1510px) {
+    .roadmap-all {
+        /* width: 450px; */
+    }
+    .roadmap-image img {}
+}
+
+@media only screen and (max-width: 1435px) {
+    .roadmap-all {
+        /* width: 430px; */
+    }
+    .roadmap-image img {}
+}
+
+@media only screen and (max-width: 1240px) {
+    .roadmap-image img {
+        display: none;
+    }
+    .roadmap-phase {
+        gap: 50px;
+    }
+    .roadmap-phase-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .roadmap-all {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .roadmap-title img {
+        /* width: 300px; */
+    }
+    .roadmap-image img {
+        display: none;
+    }
+    .roadmap-phase {
+        gap: 50px;
+    }
+    .roadmap-phase-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .roadmap-all {
+        width: 350px;
+    }
+    .roadmap-all h1 {
+        color: #fff;
+        font-family: var(--title-font);
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .roadmap-all p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .roadmap {
+        padding: 100px 0 50px 0;
+    }
+    .roadmap-title img {
+        /* width: 300px; */
+    }
+    .roadmap-image img {
+        display: none;
+    }
+    .roadmap-phase {
+        gap: 50px;
+    }
+    .roadmap-phase-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .roadmap-all {
+        width: 350px;
+    }
+    .roadmap-all h1 {
+        color: #fff;
+        font-family: var(--title-font);
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .roadmap-all p {
+        font-size: 14px;
+    }
+    .roadmap-description img {
+        width: 100%;
+        /* height: 200px; */
+    }
+}
+
+
+/* <!-- ============== Winning hands ============ --> */
+
+@media only screen and (max-width: 900px) {
+    .winning-site img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .team {
+        padding: 50px 0 50px 0;
+    }
+    .winning-site img {
+        display: none;
+    }
+    .winning {
+        padding: 50px 0 50px 0;
+    }
+}
+
+
+/* <!-- =========== Team ===================== --> */
+
+@media only screen and (max-width: 500px) {
+    .team-title h1 {
+        /* font-size: 30px; */
+        /* margin-bottom: 10px; */
+    }
+    .team-card {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .team-img img {
+        width: 300px;
+    }
+    .team-card h3 {
+        font-size: 28px;
+    }
+    .team-card p {
+        font-size: 17px;
+    }
+}
+
+
+/* <!-- =================== New sletter ============== --> */
+
+@media only screen and (max-width: 1200px) {
+    .new-sletter {
+        padding: 50px 0 50px 0;
+        position: relative;
+    }
+    .newsletter-right {
+        margin: auto;
+    }
+    .newsletter-right img {
+        width: 80%;
+        margin-left: 90px;
+        margin-bottom: -119px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .newsletter-right {
+        margin: auto;
+        text-align: center;
+    }
+    .newsletter-right img {
+        width: 80%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .newsletter-left {}
+    .newsletter-left img {
+        display: none;
+    }
+    .newsletter-rights {}
+    .newsletter-rights img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .email input {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 39px;
+        padding: 20px 30px;
+        outline: none;
+    }
+    .newsletter-title h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .newsletter-email .newsletter-form{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .email input {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 10px 20px;
+        outline: none;
+        margin-bottom: 10px;
+        border: none;
+    }
+    .newsletter-title h1 {
+        font-size: 30px;
+    }
+    .send-btn button {
+        font-size: 18px;
+        color: #ffffff;
+        background: #ff7e01;
+        border-radius: 29px;
+        padding: 10px 15px;
+        font-weight: 600;
+        border: none;
+        width: 100%;
+    }
+    .newsletter-let {
+        padding: 20px;
+    }
+    .newsletter-let p {
+        font-size: 17px;
+        font-family: var(--body-font);
+        margin-bottom: 10px;
+        line-height: 29px;
+    }
+}
+
+
+/* <!-- ====================== Join our discord  =========== --> */
+
+@media only screen and (max-width: 1230px) {
+    .join-community {
+        padding: 200px 0 100px 0;
+    }
+    .join-community-wrapper {
+        background: #ff7e01;
+        border-radius: 75px;
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .join-left {
+        width: 80%;
+        padding-left: 0px;
+    }
+    .join-right {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .join-left h1 {
+        font-size: 50px;
+    }
+    .join-community {
+        padding: 50px 0 50px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .join-left h1 {
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: var(--title-font);
+    }
+    .join-left p {
+        font-size: 17px;
+    }
+}
+
+.roadmap-description:hover img {
+    transform: scale(1.1);
+}
+
+.team-card:hover .team-img img {
+    transform: scale(1.1);
+}
+
+.road-map {
+    position: relative;
+}
+
+.winning-img video {
+    width: 100%;
+}
+
+.marquee {
+    overflow: hidden;
+    margin: 10px !important;
+}
